@@ -87,3 +87,12 @@ All resources are deployed to the Canada Central region.
 Public IP uses Standard SKU due to free-tier limitations.
 Ubuntu image used: Canonical:0001-com-ubuntu-server-jammy:22_04-lts-gen2:latest
 SSH public key must be placed in the same folder or embedded as a variable.
+
+🧼 Cleanup
+Always destroy resources after testing to avoid unnecessary charges:
+
+bash
+terraform destroy
+
+📄 License
+This lab is part of the CCGC 5502 Automation course and is intended for educational use only.
