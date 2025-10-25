@@ -1,4 +1,4 @@
-# Terraform Lab 02 – Azure Infrastructure Automation
+# Terraform – Azure Infrastructure Automation
 
 This repository contains the full configuration and scripts for Lab 02 of the CCGC 5502 Automation course. It covers three progressive modules using Terraform to provision and manage Azure infrastructure.
 
