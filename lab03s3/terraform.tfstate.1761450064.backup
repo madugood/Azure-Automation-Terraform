@@ -1,0 +1,56 @@
+{
+  "version": 4,
+  "terraform_version": "1.13.4",
+  "serial": 58,
+  "lineage": "2a8604b5-a117-eea5-706a-2fb209e16fac",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_network",
+      "name": "network_vnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_space": [
+              "10.0.0.0/16"
+            ],
+            "bgp_community": "",
+            "ddos_protection_plan": [],
+            "dns_servers": [],
+            "edge_zone": "",
+            "encryption": [],
+            "flow_timeout_in_minutes": 0,
+            "guid": "46ec525a-0edc-42ff-bfe4-f12bb8e4b12a",
+            "id": "/subscriptions/b79640f4-c997-4c8b-b68b-194ac740d03e/resourceGroups/network-rg/providers/Microsoft.Network/virtualNetworks/network-vnet",
+            "location": "canadacentral",
+            "name": "network-vnet",
+            "resource_group_name": "network-rg",
+            "subnet": [
+              {
+                "address_prefix": "10.0.0.0/24",
+                "id": "/subscriptions/b79640f4-c997-4c8b-b68b-194ac740d03e/resourceGroups/network-rg/providers/Microsoft.Network/virtualNetworks/network-vnet/subnets/network-subnet1",
+                "name": "network-subnet1",
+                "security_group": "/subscriptions/b79640f4-c997-4c8b-b68b-194ac740d03e/resourceGroups/network-rg/providers/Microsoft.Network/networkSecurityGroups/network-nsg1"
+              },
+              {
+                "address_prefix": "10.0.1.0/24",
+                "id": "/subscriptions/b79640f4-c997-4c8b-b68b-194ac740d03e/resourceGroups/network-rg/providers/Microsoft.Network/virtualNetworks/network-vnet/subnets/network-subnet2",
+                "name": "network-subnet2",
+                "security_group": "/subscriptions/b79640f4-c997-4c8b-b68b-194ac740d03e/resourceGroups/network-rg/providers/Microsoft.Network/networkSecurityGroups/network-nsg2"
+              }
+            ],
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
